@@ -1,5 +1,4 @@
-var jsm2js = require('./lib/jsm2js');
-var inline = require('./lib/inline');
+var transform = require('./metaret');
 
 console.log("================= tail recursion");
 
@@ -17,7 +16,7 @@ var sampleCode =
 console.log("INPUT ---------------------");
 console.log(sampleCode);
 
-var outp = jsm2js.jsm2js(sampleCode);
+var outp = transform.jsm2js(sampleCode);
 
 console.log("OUTPUT -------------------");
 console.log(outp);
@@ -33,7 +32,7 @@ var inlineCode =
 console.log("INPUT ---------------------");
 console.log(inlineCode);
 
-var outpi = inline.inline(inlineCode);
+var outpi = transform.inline(inlineCode);
 
 console.log("OUTPUT -------------------");
 console.log(outpi);

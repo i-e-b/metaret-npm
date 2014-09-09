@@ -2,7 +2,7 @@
   "name": "metaret",
   "version": "0.0.1",
   "description": "Meta composition and inlining transforms for Javascript to allow fast, efficient tail recursion without trampolines",
-  "main": "index.js",
+  "main": "metaret.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,14 +12,14 @@
   },
   "keywords": [
     "functional",
-    "tail",
+    "tail","tail-call",
     "recursion",
     "metafun",
     "metaret",
     "inline"
   ],
   "author": "",
-  "license": "Custom",
+  "license": "License.txt",
   "bugs": {
     "url": "https://github.com/i-e-b/metaret-npm/issues"
   },
