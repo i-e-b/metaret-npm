@@ -1,6 +1,6 @@
 {
   "name": "metaret",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Meta composition and inlining transforms for Javascript to allow fast, efficient tail recursion without trampolines",
   "main": "metaret.js",
   "scripts": {
