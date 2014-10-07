@@ -1,0 +1,34 @@
+{
+  "name": "grunt-metaret",
+  "version": "1.0.0",
+  "description": "Grunt task for compiling tail-recursive metafunctions into optimised javascript",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i-e-b/metaret-npm.git"
+  },
+  "keywords": [
+    "tail",
+    "recursion",
+    "metafunction",
+    "metaret",
+    "grunt",
+    "grunt-plugin",
+    "functional"
+  ],
+  "author": "ieb",
+  "license": "BSD",
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/i-e-b/metaret-npm/issues"
+  },
+  "homepage": "https://github.com/i-e-b/metaret-npm",
+  "dependencies": {
+    "metaret": "0.0.3"
+  }
+}
