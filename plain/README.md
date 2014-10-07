@@ -1,14 +1,7 @@
 metaret-npm
 ===========
 
-Node-ready versions of https://github.com/glathoud/js.metaret packaged for `npm`
-
-`plain` folder contains the library itself, in a state that can be installed and required as normal.
-`grunt` folder contains a grunt task that will apply the jsm-to-js transform to any `.jsm` files specified.
-
-
-metaret
--------
+A node-ready version of https://github.com/glathoud/js.metaret packaged for NPM
 
 Exposes 2 functions which transform Javascript source code:
 
